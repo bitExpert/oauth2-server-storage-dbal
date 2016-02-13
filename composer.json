@@ -1,0 +1,36 @@
+{
+  "name": "bitexpert/oauth2-server-storage-dbal",
+  "description": "Doctrine Dbal Storage for OAuth2 server",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Stephan Hochdörfer",
+      "email": "S.Hochdoerfer@bitExpert.de",
+      "homepage": "http://www.bitExpert.de"
+    }
+  ],
+  "require": {
+    "php": "^5.5|^7.0",
+    "doctrine/dbal": "v2.5.4",
+    "league/oauth2-server": "^4.1.0"
+  },
+  "require-dev": {
+    "phpunit/php-code-coverage": "^2.1.0",
+    "phpunit/phpunit": "^4.8",
+    "squizlabs/php_codesniffer": "^2.3",
+    "phpdocumentor/phpdocumentor": "^2.8",
+    "phing/phing": "^2.8.0",
+    "bitexpert/phing-securitychecker": "^0.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "bitExpert\\OAuth2\\Server\\Storage\\Dbal": "src/bitExpert/OAuth2/Server/Storage/Dbal"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "bitExpert\\OAuth2\\Server\\Storage\\Dbal": "tests/bitExpert/OAuth2/Server/Storage/Dbal"
+    }
+  }
+}

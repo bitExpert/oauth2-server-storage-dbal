@@ -16,3 +16,4 @@ before_script:
 script:
     - composer validate
     - ./vendor/bin/phing security:check
+    - ./vendor/bin/phing sniff

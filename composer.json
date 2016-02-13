@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "bitExpert\\OAuth2\\Server\\Storage\\Dbal": "src/bitExpert/OAuth2/Server/Storage/Dbal"
+      "bitExpert\\OAuth2\\Server\\Storage\\Dbal\\": "src/bitExpert/OAuth2/Server/Storage/Dbal"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "bitExpert\\OAuth2\\Server\\Storage\\Dbal": "tests/bitExpert/OAuth2/Server/Storage/Dbal"
+      "bitExpert\\OAuth2\\Server\\Storage\\Dbal\\": "tests/bitExpert/OAuth2/Server/Storage/Dbal"
     }
   }
 }

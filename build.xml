@@ -8,7 +8,6 @@
               checkreturn="true">
             <arg value="--standard=PSR2"/>
             <arg path="${phing.dir}/src"/>
-            <arg path="${phing.dir}/tests"/>
         </exec>
     </target>
 
@@ -18,13 +17,6 @@
               checkreturn="true">
             <arg value="-l"/>
             <arg path="${phing.dir}/src"/>
-        </exec>
-
-        <exec executable="php"
-              passthru="true"
-              checkreturn="true">
-            <arg value="-l"/>
-            <arg path="${phing.dir}/tests"/>
         </exec>
     </target>
 

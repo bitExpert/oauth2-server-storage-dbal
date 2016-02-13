@@ -36,6 +36,8 @@ $server->setClientStorage(new \bitExpert\OAuth2\Server\Storage\Dbal\ClientStorag
 $server->setScopeStorage(new \bitExpert\OAuth2\Server\Storage\Dbal\ScopeStorage($connection));
 ```
 
+The required database schema can be found in scripts/setup.php.
+
 License
 -------
 

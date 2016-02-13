@@ -1,6 +1,7 @@
 {
   "name": "bitexpert/oauth2-server-storage-dbal",
   "description": "Doctrine Dbal Storage for OAuth2 server",
+  "version": "0.1.0",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
   "authors": [

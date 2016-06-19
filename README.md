@@ -2,6 +2,7 @@
 This package provides Dbal storage implementations for [PHP OAuth 2.0 Server](https://github.com/thephpleague/oauth2-server).
 
 [![Build Status](https://travis-ci.org/bitExpert/oauth2-server-storage-dbal.svg?branch=release/r0.1.0)](https://travis-ci.org/bitExpert/oauth2-server-storage-dbal)
+[![Dependency Status](https://www.versioneye.com/user/projects/56bf77dd18b271002c698296/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56bf77dd18b271002c698296)
 
 Installation
 ------------
